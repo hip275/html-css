@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  html, body {
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+.pic{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #56545447;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+}
+.banner{
+  max-width: 854px;
+  width: 100%;
+  margin: auto;
+}
+.banner img{
+    
+    width: 100%;
+   
+    padding-top: 76px;
+    
+}
+.header-menu-item {
+    padding: 59px 20px;
+}
+.header-menu-item:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    justify-content:space-around
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.a {
+    max-width: 858px;
+    width: 100%;
+    height: 100%;
+    padding-top: 44px;
+    margin: 0 auto;
+    font-family: New York Extra Large;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+  }
+.ghost {
+    max-width: 626px;
+    width: 100%;
+    max-height:68px;
+    height: 100%;
+    padding-top:32px;
+    padding-bottom: 134px;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+.all{
+    max-width: 858px;
+    width: 100%;
+    max-height:162px;
+    height: 100%;
+    padding-top: 64px;
+    margin: 0 auto;
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    text-align: center;
+    color: #000000;
+}
+.pic1{ 
+    max-width: 304px;
+    width: 100%;
+    padding-top: 39px;
+}
+.style{
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 650px;
+  margin:auto;
+}
+.here{
+   
+    padding-top: 20px;
+    margin:0 auto;
+    font-family:system-ui;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+    color: #000000;
+}
+.granny{
+  
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.hello{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.he{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.con{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.it{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.i{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.clients{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.c{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.her{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.connect{
+ 
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.how{
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.lo{
+  max-width: 488px;
+  width: 100%;
+  padding-top: 25.58px;
+  margin:0 auto;
+  font-family: New York Small;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  color: #ffffff;
+
+}
+.ap{
+  width:100%;
+  height:464px;
+  padding-bottom: 32px;
+  background:#000000;
+  margin-top:82px ;
+}
+.so{
+  position: absolute;
+  left: -6px;
+  width:100% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+}
+.di{
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing : 1px;
+  color:#ffffff;
+}
+.ve{
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.pic2{
+  padding-top: 151.12px;
+  text-align: center;
+}
+.thi{
+  max-width: 209px;
+  width: 100%;
+  padding-top:32px;
+  display: flex;
+  justify-content: space-between;
+  font-family:sans-serif;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.ti{
+  border-bottom: 2px solid #ffffff;
+}
+.nor{
+  max-width: 178px;
+  width: 100%;
+  padding-top:62px;
+  font-family:sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.menu1{
+  display: none;
+}
+@media only screen and  (max-width: 376px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .banner img {
+    max-width: 100%;
+  }
+  .logo svg {
+    max-width: 217px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu1{
+    display: block;
+  }
+  .pic{
+    width: 100%;
+  }
+  .a{
+    max-width: 375px;
+  }
+  .ghost{
+    max-width: 335px;
+  }
+  .all{
+    max-width: 164px;
+  }
+  .here{
+    max-width: 262px;
+  }
+  .granny{
+    max-width: 262px;
+  }
+  .hello{
+    max-width: 262px;
+  }
+  .how{
+    max-width: 270px;
+  }
+  .con{
+    max-width: 262px;
+  }
+  .ap{
+    max-width: 100%;
+  }
+  .clients{
+    max-width: 262px;
+  }
+  .c{
+  max-width: 262px;
+  }
+  .he{
+    max-width: 262px;
+  }
+  .i{
+    max-width: 262px;
+  }
+  .it{
+    max-width: 262px;
+  }
+  .her{
+    max-width: 262px;
+  }
+  .connect{
+    max-width: 262px;
+  }
+  .so{
+    position: relative;
+    
+  }
+  
+  .lo{
+    max-width: 287px;
+  }
+  .thi{
+    max-width: 181px;
+  }
+  .nor{
+    max-width: 178px;
+    width: 100%;
+  }
+  
+  .hi{
+    display: none;
+  }
+  .ha{
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left:-25px
+  }
+  .hy{
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right:-60px
+  }
+  .ho{
+    font-size: 16px;
+    font-weight: 800;
+   margin: auto;
+  }
+}

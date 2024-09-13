@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin:0;
+    border:0
+}
+.banner{
+    max-width: 1523px;
+    width: 100%;
+    max-height: 350px  ;
+    height: 100%;
+    background: #FFD900;
+
+}
+.version {
+   
+    width: 100%;
+    max-height: 24px;
+    height: 100%;
+    padding-top: 65px;
+    padding-left: 140px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+
+}
+.read {
+   
+    width: 100%;
+    max-height: 239px;
+    height: 100%;
+    padding-top: 14px;
+    padding-left: 131px;
+    font-family: New York Extra Large;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 238.67px;
+    text-align: left;
+    color: #000000;
+}
+.ho{
+    
+    width: 100%;
+    max-height: 53px;
+    height: 100%;
+    padding-top: 103px;
+    padding-left: 131px;
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    text-align: left;
+    color: #000000;
+
+}
+.layout{
+    
+    width: 100%;
+    max-height: 96px;
+    height: 100%;
+    font-family:sans-serif;
+    padding-left: 35px;
+    margin-top: 26px;
+    margin-left: 134px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    color: #000000;
+    border-left: 6px solid #000000;
+    
+}
+.a{
+     
+    width: 100%;
+    max-height: 53px;
+    height: 100%;
+    padding-top: 90px;
+    padding-left: 131px;
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    text-align: left;
+    color: #000000;
+}
+.layout2{
+   
+    width: 100%;
+    max-height: 96px;
+    height: 100%;
+    font-family:sans-serif;
+    padding-left: 35px;
+    margin-top: 26px;
+    margin-left: 134px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    color: #000000;
+    border-left: 6px solid #000000;
+    
+}
+.fo{
+   
+    width: 100%;
+    max-height: 53px;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 131px;
+    font-family: New York Extra Large;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    color: #000000;
+
+}
+.layout3{
+     
+    width: 100%;
+    max-height: 72px;
+    height: 100%;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}
+.gtf{
+     
+    width: 100%;
+    max-height: 50.22px;
+    height: 100%;
+    padding-top: 59px;
+    padding-left: 35px;
+    font-family: none;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 52.51px;
+    color: #000000;
+}
+.layout4{
+    
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}
+.ma{
+    
+    width: 100%;
+    max-height: 48.06px;
+    height: 100%;
+    padding-top: 52px;
+    padding-left: 35px;
+    font-family: New York Extra Large;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52.51px;
+    color: #000000;
+}
+.layout5{
+    
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}
+.ha{
+    
+    width: 100%;
+    max-height: 40.9px;
+    height: 100%;
+    padding-top: 61px;
+    padding-left: 35px;
+    font-family: New York Extra Large;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 52.51px;
+    color: #000000;
+}
+.layout6{
+    
+    width: 100%;
+    max-height: 48px;
+    height: 1200%;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}
+.ba{
+ 
+    width: 100%;
+    max-height: 49.57px;
+    height: 100%;
+    padding-top: 56px;
+    padding-left: 35px;
+    font-family:"Dosis", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 52.51px;
+    color: #000000;
+}
+.layout7{
+    
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}
+.no{
+   
+    max-height: 47.25px;
+    padding-top: 54px;
+    padding-left: 35px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 52.51px;
+    color: #000000;
+}
+.layout8{
+   
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    color: #000000;
+}

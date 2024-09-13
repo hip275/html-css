@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+  html, body {
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+  .select{
+    display: none;
+  }
+  @media only screen and  (max-width: 750px) {
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .banner img {
+      max-width: 100%;
+    }
+    .logo svg {
+      max-width: 217px;
+    }
+    .menu {
+      display: none;
+    }
+    .menu1{
+      display: block;
+    }
+    .pic1{
+      max-width: 375px;
+    }
+    .a{
+      max-width: 375px;
+    }
+    .ghost{
+      max-width: 335px;
+    }
+    .
+  }
+.picture{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #56545447;
+    margin: 0;
+    padding: 0;
+}
+.select1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+}
+.header-menu-item {
+    padding: 59px 20px;
+}
+.header-menu-item:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    justify-content:space-around
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+}
+.blog {
+    max-width: 858px;
+    width: 100%;
+    height: 100%;
+    padding-top: 52px;
+    margin: 0 auto;
+    font-family: New York Extra Large;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+  }
+.why {
+    max-width: 626px;
+    width: 100%;
+    max-height:32px;
+    height: 100%;
+    padding-top:32px;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+}
+.layout{
+  max-width: 1440px;
+  width: 100%;
+  max-height: 900px;
+  height: 100%;
+  padding-top: 82px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+}
+.lock{
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  border-top: 2px solid #000000;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+}
+.mask{
+  display: flex;
+  justify-self: end;
+}
+.name{
+  display: block;
+  padding-left: 16px;
+  width: 100%;
+  max-height: 19px;
+  height: 100%;
+}
+.group{
+  max-width: 56px;
+  width: 100%;
+  max-height: 56px;
+  height: 100%;
+  padding-top: 24px;
+}
+.mika{
+  padding-top: 29px;
+  font-family:sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.09px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #000000;
+}
+.apr{
+  padding-top: 9px;
+  font-family:sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #000000;
+}
+.box{
+  display: flex;
+  justify-content: end;
+  max-width: 140px;
+  width: 100%;
+  max-height: 44px;
+  height: 100%;
+  margin-top: 30px;
+  box-shadow: 0px 1px gainsboro;
+}
+.border{
+  border: 2px solid gainsboro;
+  padding: 12px 25px;
+}
+.icon1{
+  border-top-left-radius:5px ;
+  border-bottom-left-radius:5px ;
+}
+.icon2{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px ;
+  border-left: none;
+}
+.face{
+  max-width: 20px;
+  width: 100%;
+  max-height: 20px;
+  height: 100%;
+  margin: auto;
+}
+.twitter{
+  max-width: 19.62px;
+  width: 100%;
+  max-height: 16px;
+  height: 100%;
+}
+.word p{
+  max-width: 640px;
+  width: 100%;
+  padding-top: 58px;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.next{
+  padding-top: 57px;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 51.2px;
+  text-align: left;
+  color: #000000;
+}
+.word1 p{
+  padding-top: 30px;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.layout1{
+  max-width: 854px;
+  width: 100%;
+  max-height: 570px;
+  height: 100%;
+  padding-top: 52px;
+  margin: auto;
+}
+.image{
+  max-width: 481px;
+  width: 100%;
+  max-height: 44px;
+  height: 100%;
+  padding-top: 12px;
+  margin: auto;
+  font-family:sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: center;
+  color: #000000;
+}
+.lock1{
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+}
+.word2 p{
+  max-width: 640px;
+  width: 100%;
+  padding-top: 58px;
+  margin: auto;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.list{
+  padding-top: 58px;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.first{
+  padding-top: 24px;
+  padding-left: 13px;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.second{
+  padding-top: 32px;
+}
+.thank{
+  padding-top: 52px;
+  font-family: New York Medium;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #000000;
+}
+.share{
+  max-width: 640px;
+  width: 100%;
+  margin-top: 77px;
+}
+.boxx{
+  display: flex;
+  justify-content: space-around;
+  max-width: 640px;
+  width: 100%;
+  max-height: 64px;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+.fox{
+  max-width: 320px;
+  max-height: 64px;
+  height: 100%;
+  border: 2px solid gainsboro;
+  box-shadow: 1px 1px gainsboro;
+  padding: 19px 70px;
+  border-top-left-radius:5px ;
+  border-bottom-left-radius:5px ;
+}
+.foxx{
+  max-width: 320px;
+  max-height: 64px;
+  height: 100%;
+  border: 2px solid gainsboro;
+  padding: 19px 70px;
+  border-top-right-radius:5px ;
+  border-bottom-right-radius:5px ;
+}
+.faccebook{
+  max-width: 184px;
+  width: 100%;
+}
+.x{
+  max-width: 165px;
+  width: 100%;
+}
+.tag{
+  max-width: 640px;
+  width: 100%;
+  max-height: 19px;
+  height: 100%;
+  padding: 32px 0 34px;
+  border-bottom: 1px #000000 dotted;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000000;
+}
+.intro-auto{
+  max-width: 640px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro{
+  display: flex;
+}
+.auto{
+  max-width: 70px;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  padding-top: 36px;
+  border-radius: 50%;
+}
+.auto-intro{
+  max-width: 570px;
+  width: 100%;
+  padding-top: 32px;
+  line-height: 1.56rem;
+  font-weight: 400;
+  padding-left: 24px;
+  font-family: 'SF Pro Text', sans-serif;
+}
+.auto-name{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.eyes::after{
+  content: "";
+  height: 2px;
+  width: 100vw;
+  background-color: #000;
+  position: absolute;
+  top: 80%;
+}
+.eyes{
+  display: flex;
+  padding-top: 100px;
+  height: 65px;
+  justify-content: center;
+  position: relative;
+}
+.what{
+  max-width: 376px;
+  width: 100%;
+  max-height: 53px;
+  height: 100%;
+  padding-top: 40.71px;
+  font-family: New York Extra Large;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.51px;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+}
+.style{
+  display: flex;
+  cursor: pointer;
+  padding-top: 34px;
+  justify-content: space-around;
+  max-width: 979px;
+  margin:auto;
+}
+.pic1{
+  max-width: 304px;
+  width: 100%;
+
+}
+.word3{
+  padding-top: 20px;
+  margin:0 auto;
+  font-family: system-ui;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: #000000;
+}
+.row-full {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-640 {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-line {
+  height: 12px;
+  background-color: #000000;
+  margin-top: 80px;
+}
+.content-signup {
+  width: 640px;
+  height: 313px;
+  border: 1px #000000 solid;
+  text-align: center;
+}
+.signup-heading {
+  font-size: 36px;
+  line-height: 28px;
+  font-weight: 700;
+  padding: 62px 0 18px;
+}
+.font-extra-large {
+  font-family: 'New York Extra Large', sans-serif;
+}
+.signup-desc {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  width: 100%;
+  max-width: 538px;
+}
+.signup-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 520px;
+  height: 54px;
+  margin-left: 60px;
+  margin-top: 36px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup-input, .signup-input::placeholder {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 20px;
+  line-height: 23.87px;
+  font-weight: 400;
+  color: #000000;
+}
+.signup-input {
+  flex-grow: 1;
+  height: 100%;
+  max-height: 52.67px;
+  border: 1px #000000 solid;
+  padding-left: 16px;
+}
+.signup-submit {
+  font-family: 'SF Pro Text', sans-serif;
+  font-size: 20px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000000;
+  max-width: 139px;
+  max-height: 54px;
+  width: 100%;
+  cursor: pointer;
+}
+.content-line-00 {
+  height: 2px;
+  background-color: #000000;
+}
+.ap{
+  width:100%;
+  max-height:464px;
+  padding-bottom: 32px;
+  background:#000000;
+  margin-top:82px ;
+}
+.so{
+  position: absolute;
+  left: -6px;
+  width:100% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+}
+.di{
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing : 1px;
+  color:#ffffff;
+}
+.ve{
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.pic2{
+  padding-top: 151.12px;
+  text-align: center;
+}
+.thi{
+  max-width: 209px;
+  width: 100%;
+  padding-top:32px;
+  display: flex;
+  justify-content: space-between;
+  font-family:sans-serif;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.ti{
+  border-bottom: 2px solid #ffffff;
+}
+.nor{
+  max-width: 178px;
+  width: 100%;
+  padding-top:62px;
+  font-family:sans-serif;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
